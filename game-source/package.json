@@ -1,0 +1,19 @@
+{
+  "name": "moko-pocket",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Un refuge mobile et paisible : Moko au centre d’un jardin incrémental passif.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5180 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4180 --strictPort",
+    "test": "node --test tools/economy.test.mjs tools/growth.test.mjs"
+  },
+  "dependencies": {
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "vite": "8.2.2"
+  }
+}
